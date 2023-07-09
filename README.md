@@ -1,8 +1,8 @@
-# Multilayer Perceptron (MLP) model
+# 🖧 Multilayer Perceptron (MLP) neural network model 
 
 This script demonstrates the training and evaluation of a Multilayer Perceptron (MLP) model on the CIFAR-2 dataset (images of planes and ships). The MLP model is implemented using numpy and consists of linear transform layers, ReLU activation function, and sigmoid cross-entropy loss.
 
-## How does this work?
+## 🌐 How does this work?
 
 The script trains an MLP model on the CIFAR-2 dataset using numpy. Here's an overview of how the script works:
 
@@ -14,7 +14,7 @@ The script trains an MLP model on the CIFAR-2 dataset using numpy. Here's an ove
 
 4. Evaluation: After training, the script evaluates the trained model on the training and test sets. It computes the loss and accuracy using the forward pass and evaluates the predicted labels against the true labels.
 
-## Usage
+## 🔍Usage
 
 To use this script, follow these steps:
 
