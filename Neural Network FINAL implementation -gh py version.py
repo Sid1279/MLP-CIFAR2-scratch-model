@@ -89,7 +89,7 @@ class SigmoidCrossEntropy(object):
         #Derivative wrt x:
         #sig'(x) = (sig(x))*(1-sig(x))
         #check why its being multiplied by gradient of next layer: 
-        #CHAIN RULE! grad_output is a constant being multiplied by the sigmoid function
+        #CHAIN RULE! grad_output is a constant being multiplied by the sigmoid function sig(x)
 class MLP(object):
     def __init__(self, input_dims, hidden_units):
         self.input_dims = input_dims
