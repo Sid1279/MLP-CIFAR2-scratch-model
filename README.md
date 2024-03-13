@@ -2,7 +2,7 @@
 
 This script demonstrates the training and evaluation of a Multilayer Perceptron (MLP) model on the CIFAR-2 dataset (images of planes and ships). The MLP model is implemented using numpy and consists of linear transform layers, ReLU activation function, and sigmoid cross-entropy loss.
 
-## 🌐 MLP Model Architecture?
+## 🌐 MLP Model Architecture
 The model consists of linear transform layers, a ReLU activation function, and sigmoid cross-entropy loss. The forward pass and backward pass methods are implemented to compute the model's predictions, gradients, and update the model parameters using gradient descent with momentum and L2 regularization.
 
 ## 🔍 Training
